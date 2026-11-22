@@ -1,0 +1,15 @@
+.header {
+}
+.nav {
+}
+.nav-list {
+}
+.nav-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
