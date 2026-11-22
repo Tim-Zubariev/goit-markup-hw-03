@@ -1,12 +1,14 @@
 .team-section {
   background: #f4f4fd;
 }
-.team-title {
-  margin-bottom: 72px;
+
+.team-section .container {
+  padding-block: 120px;
+  padding-inline: 0;
 }
 
-.team-wraper {
-  width: 1158px;
+.team-title {
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -15,11 +17,11 @@
 }
 
 .team-item {
-  width: calc((100% - 24 * 3) / 4);
-  background: #fff;
-  border-radius: 0 0 4px 4px;
+  width: calc((100% - 24px * 3) / 4);
 }
 .team-foto {
+  display: block;
+  max-width: 100%;
 }
 .team-subtitle {
   font-weight: 500;
@@ -27,13 +29,16 @@
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-text {
   text-align: center;
 }
 
 .team-card-container {
+  max-width: 264px;
   padding-block: 32px;
   padding-inline: 16px;
-  gap: 8px;
+  background: #fff;
+  border-radius: 0 0 4px 4px;
 }

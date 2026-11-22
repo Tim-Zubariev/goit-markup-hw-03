@@ -1,17 +1,14 @@
 .header {
-  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
 
+.header .container {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0;
 }
 
 .header-wraper {
-  height: 72px;
-  padding-block: 0;
-  padding-inline: 15px;
-  align-items: center;
-  width: 1158px;
-  display: flex;
 }
 
 .nav {
@@ -19,12 +16,14 @@
 }
 .nav-list {
   display: flex;
-  margin: auto;
+  align-items: center;
   gap: 40px;
 }
 .nav-link {
+  display: block;
   font-weight: 500;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover,

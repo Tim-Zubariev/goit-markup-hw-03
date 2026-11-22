@@ -1,17 +1,19 @@
 .portfolio-section {
 }
 
+.portfolio-section .container {
+  padding-block: 120px;
+  padding-inline: 0;
+}
+
 .portfolio-title {
   margin-bottom: 72px;
 }
 
-.portfolio-wraper {
-  width: 1158px;
-}
-
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .portfolio-item {
@@ -37,5 +39,4 @@
   border-right: 1px solid #e7e9fc;
   padding-block: 32px;
   padding-inline: 16px;
-  width: 360px;
 }

@@ -1,6 +1,12 @@
 .footer {
   background-color: #2e2f42;
 }
+
+.footer .container {
+  padding-block: 100px;
+  padding-inline: 0;
+}
+
 .footer-logo {
   color: #f4f4fd;
 }
@@ -10,10 +16,4 @@
   color: #f4f4fd;
   width: 264px;
   flex-wrap: wrap;
-}
-
-.footer-wraper {
-  padding-block: 0;
-  padding-inline: 15px;
-  width: 1158px;
 }

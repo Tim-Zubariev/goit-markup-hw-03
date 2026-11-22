@@ -1,11 +1,12 @@
 .features-section {
 }
 
-.features-title {
+.features-section .container {
+  padding-block: 120px;
+  padding-inline: 0;
 }
 
-.features-wraper {
-  width: 1158px;
+.features-title {
 }
 
 .features-list {
