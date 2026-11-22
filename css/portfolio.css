@@ -1,9 +1,9 @@
 .portfolio-section {
+  padding-block: 120px;
+  padding-inline: 0;
 }
 
 .portfolio-section .container {
-  padding-block: 120px;
-  padding-inline: 0;
 }
 
 .portfolio-title {

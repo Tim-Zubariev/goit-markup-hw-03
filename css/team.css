@@ -1,10 +1,10 @@
 .team-section {
   background: #f4f4fd;
+  padding-block: 120px;
+  padding-inline: 0;
 }
 
 .team-section .container {
-  padding-block: 120px;
-  padding-inline: 0;
 }
 
 .team-title {
@@ -36,7 +36,6 @@
 }
 
 .team-card-container {
-  max-width: 264px;
   padding-block: 32px;
   padding-inline: 16px;
   background: #fff;

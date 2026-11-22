@@ -1,15 +1,14 @@
 .hero-section {
   background-color: #2e2f42;
+  padding-block: 188px;
+  padding-inline: 0;
 }
 
 .hero-section .container {
-  width: 1158px;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 48px;
-  padding-block: 188px;
-  padding-inline: 0;
 }
 
 .hero-title {

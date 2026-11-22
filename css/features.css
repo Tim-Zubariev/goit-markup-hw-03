@@ -1,9 +1,9 @@
 .features-section {
+  padding-block: 120px;
+  padding-inline: 0;
 }
 
 .features-section .container {
-  padding-block: 120px;
-  padding-inline: 0;
 }
 
 .features-title {
