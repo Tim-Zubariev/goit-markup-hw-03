@@ -12,7 +12,8 @@
 }
 
 .nav {
-  margin: auto;
+  margin-left: 76px;
+  margin-right: auto;
 }
 .nav-list {
   display: flex;

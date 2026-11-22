@@ -76,7 +76,6 @@ a {
 .adress {
 }
 .adress-list {
-  justify-content: flex-end;
   display: flex;
   gap: 40px;
 }
