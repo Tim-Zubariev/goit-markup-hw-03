@@ -2,11 +2,22 @@
   background: #f4f4fd;
 }
 .team-title {
+  margin-bottom: 72px;
 }
+
+.team-wraper {
+  width: 1158px;
+}
+
 .team-list {
+  display: flex;
+  gap: 24px;
 }
+
 .team-item {
+  width: calc((100% - 24 * 3) / 4);
   background: #fff;
+  border-radius: 0 0 4px 4px;
 }
 .team-foto {
 }
@@ -19,4 +30,10 @@
 }
 .team-text {
   text-align: center;
+}
+
+.team-card-container {
+  padding-block: 32px;
+  padding-inline: 16px;
+  gap: 8px;
 }

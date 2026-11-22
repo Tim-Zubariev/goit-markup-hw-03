@@ -7,11 +7,38 @@ body {
   color: #434455;
   background-color: #fff;
 }
-ol,
-ul {
-  list-style-type: none;
+
+.container {
+  padding-block: 120px;
+  padding-inline: 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0;
+  width: 1440px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+p {
+  margin: 0;
+}
 address {
   font-style: normal;
 }
@@ -54,6 +81,8 @@ a {
 .adress {
 }
 .adress-list {
+  display: flex;
+  gap: 40px;
 }
 .adress-item {
 }
@@ -64,4 +93,17 @@ a {
 .adress-link:hover,
 .adress-link:focus {
   color: #404bbf;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
 }

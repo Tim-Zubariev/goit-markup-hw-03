@@ -1,8 +1,26 @@
 .header {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
+
+.header-wraper {
+  height: 72px;
+  padding-block: 0;
+  padding-inline: 15px;
+  align-items: center;
+  width: 1158px;
+  display: flex;
+}
+
 .nav {
+  margin: auto;
 }
 .nav-list {
+  display: flex;
+  margin: auto;
+  gap: 40px;
 }
 .nav-link {
   font-weight: 500;

@@ -6,5 +6,14 @@
 }
 
 .footer-text {
+  margin-top: 16px;
   color: #f4f4fd;
+  width: 264px;
+  flex-wrap: wrap;
+}
+
+.footer-wraper {
+  padding-block: 0;
+  padding-inline: 15px;
+  width: 1158px;
 }

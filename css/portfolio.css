@@ -2,13 +2,25 @@
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-wraper {
+  width: 1158px;
 }
 
 .portfolio-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 .portfolio-item {
+  max-width: 360px;
+  width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-img {
+  display: block;
+  max-width: 100%;
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -17,4 +29,13 @@
   color: #2e2f42;
 }
 .portfolio-text {
+}
+
+.portfolio-card-container {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding-block: 32px;
+  padding-inline: 16px;
+  width: 360px;
 }
